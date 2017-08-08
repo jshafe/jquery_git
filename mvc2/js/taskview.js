@@ -1,4 +1,5 @@
 var TaskView = function () {
+//  create events that will be used to inform the controller of interface changes
     this.addTaskEvent = new Event(this);
     this.selectTaskEvent = new Event(this);
     this.unselectTaskEvent = new Event(this);
